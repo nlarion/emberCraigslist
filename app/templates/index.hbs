@@ -1,0 +1,24 @@
+<h1> Welcome to Super Lists </h1>
+
+We hope you find exactly what you're looking for in a place to stay.
+<h2> Available Lists </h2>
+<ul>
+  {{#each model.lists as |list|}}
+    {{list-tile list=list}} {{list-cost list}}
+  {{/each}}
+</ul>
+
+<h2> Categories </h2>
+
+<ul>
+  {{#each model.categories as |category|}}
+    <li>{{category-popularity category}}{{#link-to 'category' category.id}}{{category.name}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{new-category saveCategory="saveCategory"}}
+
+<hr>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

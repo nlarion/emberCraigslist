@@ -1,0 +1,7 @@
+<li>{{#link-to 'list' list.id}}{{list.title}}<br>Posted by {{list.userName}} in {{list.category.name}} {{/link-to}}
+  {{#if isImageShowing}}
+    <p><img src={{list.image}} alt={{list.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Image</button>
+  {{/if}}
+</li>

@@ -1,0 +1,11 @@
+<h4>Location: {{fullLocation}}</h4>
+
+<h3>Lists available in {{category.name}}:</h3>
+
+<ul>
+  {{#each category.lists as |list|}}
+    {{list-tile list=list}}
+  {{/each}}
+</ul>
+
+<button {{action 'delete' category}}>Delete Category</button>
