@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export function listCost(params) {
-  var listPrice = params[0].get('cost');
+  var listPrice = params[0].get('price');
 
   if (listPrice >= 150){
     return '$$$$';

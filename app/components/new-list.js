@@ -9,6 +9,7 @@ export default Ember.Component.extend({
 
     save1() {
       var date = new Date();
+      date = date.substring(0,15);
       var params = {
         userName: this.get('userName') ? this.get('userName') : "",
         category: this.get('category') ? this.get('category') : "",

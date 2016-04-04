@@ -5,6 +5,10 @@ export default Ember.Component.extend({
   fullLocation: Ember.computed('category.name', 'category.country', function() {
     return this.get('category.name') + ', ' + this.get('category.country');
   }),
+
+  sortBy: ['date:asc'],
+  sortedLists: Ember.computed.sort('category.lists', 'sortBy'),
+
   actions: {
     save3(params) {
       var newList = this.store.createRecord('list', params);

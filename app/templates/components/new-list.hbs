@@ -1,5 +1,5 @@
 {{#if addNewList}}
-  <h1>New List</h1>
+  <h1>New Listing</h1>
     <div>
       <form>
         <div class="form-group">
@@ -24,7 +24,7 @@
 
         <div class="form-group">
           <label for="price">Price</label>
-          {{input value=price id="price"}}
+          {{input type="number" value=price id="price"}}
         </div>
 
         <div class="form-group">
@@ -32,9 +32,9 @@
           {{input value=location id="location"}}
         </div>
 
-        <button {{action 'save1'}}>Save</button>
+        <button class="btn btn-success" {{action 'save1'}}>Save</button>
       </form>
     </div>
 {{else}}
-    <button {{action 'listFormShow'}}>New List</button>
+    <button class="btn btn-info" {{action 'listFormShow'}}>List a new item</button>
 {{/if}}

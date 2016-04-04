@@ -1,57 +1,65 @@
 {
-  "categories" : [ {
-    "name" : "misc",
-    "lists" : {
-      "-KEX5J5LCrU9xp2SDjX8" : true,
-      "-KEXFORmyjI85XTtJEtr" : true
+  "categories" : {
+    "1" : {
+      "lists" : {
+        "-KEY5AjdtQlvLJ8Tiwky" : true
+      },
+      "name" : "bikes"
+    },
+    "2" : {
+      "lists" : {
+        "-KEY5LZ4FRvZ9bP_EYSJ" : true
+      },
+      "name" : "Apparel"
+    },
+    "-KEY2cE7LeXWTQVx0Gzx" : {
+      "lists" : {
+        "-KEY429yOwh0kMy4sF_J" : true,
+        "-KEY4BJQEuVsXD-6b82R" : true
+      },
+      "name" : "misc"
     }
-  }, {
-    "name" : "bikes",
-    "lists" : {
-      "-KEXE1E9RPegO6zVRJ5K" : true
-    }
-  }, {
-    "name" : "Apparel",
-    "lists" : {
-      "-KEXFUc1BGWP4VPpZEVR" : true
-    }
-  } ],
+  },
   "lists" : {
-    "-KEX5J5LCrU9xp2SDjX8" : {
-      "price" : "100",
-      "title" : "My trash",
-      "userName" : "CoolGuy2500",
+    "-KEY429yOwh0kMy4sF_J" : {
+      "category" : "-KEY2cE7LeXWTQVx0Gzx",
+      "date" : "2016-04-04T21:02:31.350Z",
+      "description" : "box",
       "image" : "http://vignette2.wikia.nocookie.net/degrassi/images/9/99/Trash-can-full-of-trash-keeeeetooo-21950089-600-456.jpg/revision/latest?cb=20140921033503",
       "location" : "oregon",
-      "description" : "box",
-      "date" : "2016-01-10"
+      "price" : "100",
+      "title" : "My trash",
+      "userName" : "CoolGuy2500"
     },
-    "-KEXE1E9RPegO6zVRJ5K" : {
+    "-KEY4BJQEuVsXD-6b82R" : {
+      "category" : "-KEY2cE7LeXWTQVx0Gzx",
+      "date" : "2016-04-04T21:03:08.823Z",
+      "description" : "box",
+      "image" : "http://i5.walmartimages.com/dfw/dce07b8c-7570/k2-_c8c22401-9a94-4cfc-9f96-e6cc783865bf.v1.jpg",
+      "location" : "oregonportland",
       "price" : "20",
-      "title" : "cool bike",
-      "userName" : "PaulJones99",
+      "title" : "pet rock",
+      "userName" : "PaulJones99"
+    },
+    "-KEY5AjdtQlvLJ8Tiwky" : {
+      "category" : "1",
+      "date" : "2016-04-04T21:07:28.622Z",
+      "description" : "wow mmy cool bike is for sale",
       "image" : "http://i5.walmartimages.com/dfw/dce07b8c-7570/k2-_c8c22401-9a94-4cfc-9f96-e6cc783865bf.v1.jpg",
       "location" : "portland",
-      "description" : "wow mmy cool bike is for sale",
-      "date" : "2016-01-09"
+      "price" : "20",
+      "title" : "cool bike",
+      "userName" : "PaulJones99"
     },
-    "-KEXFORmyjI85XTtJEtr" : {
-      "price" : "90",
-      "title" : "pet rock",
-      "userName" : "Deltron",
-      "image" : "http://www.tylonproducts.com/wp-content/uploads/2013/08/petrock.png",
-      "location" : "down the street",
-      "description" : "Selling my pet rock - serious buyers only, frim on price",
-      "date" : "2016-01-08"
-    },
-    "-KEXFUc1BGWP4VPpZEVR" : {
-      "price" : "70",
-      "title" : "awesome socks",
-      "userName" : "RustyColeberry",
+    "-KEY5LZ4FRvZ9bP_EYSJ" : {
+      "category" : "2",
+      "date" : "2016-04-04T21:08:12.942Z",
+      "description" : "test",
       "image" : "http://theawesomer.com/photos/2012/11/251112_shark_socks_2.jpg",
       "location" : "newport or",
-      "description" : "test",
-      "date" : "2016-01-07"
+      "price" : "70",
+      "title" : "awesome socks",
+      "userName" : "RustyColeberry"
     }
   }
 }
